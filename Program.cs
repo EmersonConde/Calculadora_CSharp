@@ -1,6 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using System.Security.Cryptography.X509Certificates;
 
+Console.Clear();
 Console.WriteLine(
     "".PadLeft(20, '~') +
     "\nEscolha a Operação:\n1 - Somar\n2 - Subtrair\n3 - Multiplicar\n4 - Dividir\n0 - Sair\n"
